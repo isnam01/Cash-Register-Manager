@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://cdn.getforge.com/pencilandfox.getforge.io/1556795060/assets/images/shapesTwo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #080e27;
+}
+.App {
+  background-color: #080e27;
+  font-family: sans-serif;
+  text-align: center;
+  color: #66fcf1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  padding: 2rem;
+  border: 1px solid;
+}
+
+.bill_div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bill_div > * {
+  margin: 0.5em;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: 2px #66fcf1 solid;
+  padding: 0.4rem;
+  margin: 0.5rem;
+  background-color: transparent;
+  color: #66fcf1;
+}
+
+.notes {
+  display: flex;
+  padding: 3px;
+}
+.notes span {
+  width: 90px;
+}
